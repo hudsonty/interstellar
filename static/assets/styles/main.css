@@ -4,7 +4,7 @@
 body {
   font-family: "Inter", sans-serif;
   text-decoration: none;
-  background: var(--page);
+  background: url('https://ibb.co/Xz1DLdK') no-repeat center center fixed;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
