@@ -163,4 +163,3 @@ document.addEventListener("DOMContentLoaded", function (event) {
   }
 })
 
-document.getElementById("splash").innerText = splashtext[Math.floor(Math.random() * splashtext.length)]
