@@ -29,15 +29,23 @@ var nav = document.querySelector(".fixed-nav-bar")
 
 if (nav) {
   var html = `
-    <div class="fixed-nav-bar-container" style="display: flex; justify-content: center;">
-      <div class="fixed-nav-bar-right" style="display: flex; gap: 20px;">
-        <a class="navbar-link" href="/./gm"><i class="fa-solid fa-gamepad navbar-icon"></i><an>Ga</an><an>mes</an></a>
-        <a class="navbar-link" href="/./as"><i class="fa-solid fa-phone navbar-icon"></i><an>Ap</an><an>ps</an></a>
-        <a class="navbar-link" href="/./ta"><i class="fa-solid fa-laptop navbar-icon"></i><an>Ta</an><an>bs</an></a>
-        <a class="navbar-link" href="/./st"><i class="fa-solid fa-gear navbar-icon settings-icon"></i><an>Set</an><an>tings</an></a>
+    <div class="fixed-nav-bar-container" style="display: flex; justify-content: center; align-items: center; height: 60px;">
+      <div class="fixed-nav-bar-links" style="display: flex; gap: 20px;">
+        <a class="navbar-link" href="/./gm" style="text-decoration: none; display: flex; align-items: center;">
+          <i class="fa-solid fa-gamepad navbar-icon"></i><an>Ga</an><an>mes</an>
+        </a>
+        <a class="navbar-link" href="/./as" style="text-decoration: none; display: flex; align-items: center;">
+          <i class="fa-solid fa-phone navbar-icon"></i><an>Ap</an><an>ps</an>
+        </a>
+        <a class="navbar-link" href="/./ta" style="text-decoration: none; display: flex; align-items: center;">
+          <i class="fa-solid fa-laptop navbar-icon"></i><an>Ta</an><an>bs</an>
+        </a>
+        <a class="navbar-link" href="/./st" style="text-decoration: none; display: flex; align-items: center;">
+          <i class="fa-solid fa-gear navbar-icon settings-icon"></i><an>Set</an><an>tings</an>
+        </a>
       </div>
-    </div>`
-  nav.innerHTML = html
+    </div>`;
+  nav.innerHTML = html;
 }
 // Themes
 var themeid = localStorage.getItem("theme")
