@@ -116,12 +116,12 @@ body {
 .fixed-nav-bar-right {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-transform: uppercase;
   font-size: 18px;
   color: var(--text-primary);
   font-weight: 600;
-  right: 2%;
 }
 
 .fixed-nav-bar-right .navbar-link {
